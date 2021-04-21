@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Architects Daughter', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+#container #header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0 5px 0;
+}
+
+
+#container #header h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#container #header .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container #header .search input {
+  width: 500px;
+  padding: 5px;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0, 0.4);
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 300;
+}
+
+
+#container #header .right-header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#container #header .right-header ul li {
+  /* padding: 10px 15px; */
+  border:1px solid #ccc;
+  margin: 0 10px 0px 10px;
+}
+
+#container #header .right-header ul li:hover {
+  border:1px solid hotpink;
+}
+
+#container #header .right-header ul li a {
+  color: black;
+  text-decoration: none;
+  /* margin: 5px; */
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+#container #header .right-header ul li a:hover {
+  color: hotpink;
+}
+
+
+#container #jumbo {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)) !important;
+  height: 90vh;
+
+}
+
+#container #jumbo img {
+  width: 89.89%;
+  height: 90vh;
+  position: absolute;
+  z-index: -1111;
+}
+
+
+#container #jumbo .img-box-info {
+  position: relative;
+  z-index: 9999999;
+  background-color: black;
+  top: 300px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+
+#container #jumbo .img-box-info a {
+  background-color: #ccc;
+  text-decoration: none;
+  color: black;
+  padding: 20px 50px;
+  margin: 50px 0 0 0;
+}
+
+
+#container #jumbo .img-box-info a:hover {
+  color: hotpink;
+  border: 1px solid hotpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container #products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+#container #products .product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 150px;
+  width: 100%;
+  margin: 10px 50px;
+}
+
+
+
+#container #products .product-grid .product-box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75)
+}
+
+
+/*
+#container #products .product-grid .product-box img {
+  /* width: 120px;
+  height: 150px;
+  margin: 0 auto; 
+}
+*/
+/*
+#container #products .product-grid .product-box .cta {
+    padding: 20px 0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
